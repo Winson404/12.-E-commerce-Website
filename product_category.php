@@ -83,7 +83,7 @@
 											<div class="col-xl-3 col-lg-4 col-md-4 col-12">
 												<div class="single-product">
 													<div class="product-img">
-														<a href="product-details.html">
+														<a href="product-details.php?product_Id=<?php echo $row['product_Id']; ?>">
 															<img class="default-img" src="images-product/<?php echo $row['product_image']; ?>" alt="#" style="height: 250px;">
 															<img class="hover-img" src="images-product/<?php echo $row['product_image']; ?>" alt="#" style="height: 250px;">
 														</a>
